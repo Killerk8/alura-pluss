@@ -1,0 +1,156 @@
+:root {
+    --texto-primario: white;
+    --texto-secundario: #c0c0c0;
+    --cor-btn-azul:#167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--texto-primario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;  
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 0 0 5%;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 28px;
+    gap: 22px;
+}
+
+.container__botao {
+    background-color: var(--cor-btn-azul);
+    border-radius: 8px;
+    color: var(--texto-primario);
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--texto-primario);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--texto-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%; 
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--texto-primario);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    font-size: 16;
+    color: var(--texto-secundario);
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 5em;
+}
+
+.secao__terciaria {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto__terciario {
+    font-size: 38px;
+}
+
+.terciario {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4em;
+    justify-content: center;
+}
+
+.terciario__img {
+    justify-content: center;
+    text-align: center; 
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+ .descricao__titulo__secundario {
+    font-size: 32px;
+ }
+
+ .lista_rodape {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+ }
+
+ .lista__rodape__links {
+    padding: 0 1em;
+    font-size: 16px;
+    padding-bottom: 2em;
+ }
+
+ .texto__rodape{
+    font-size: 14px;
+    color: var(--texto-secundario);
+    text-align: center;
+ }
