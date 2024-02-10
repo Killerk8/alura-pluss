@@ -120,7 +120,7 @@ body {
 .terciario {
     display: flex;
     flex-direction: row;
-    padding-top: 4em;
+    padding: 4em 0;
     justify-content: center;
 }
 
